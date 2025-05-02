@@ -1,31 +1,30 @@
 # PROJECT-Mathematical-analysis-of-armed-conflicts
 
 ## Project Description
-This repository is dedicated to implementation of a database for "Pimp My Wheels," a workshop that not only operates as a traditional garage but also engages in the purchase, restoration, and sale of cars and motorcycles. The project is structured into four key phases:
 
-Creation of the Database Schema: Crafting a structured database schema tailored to the needs of the automotive and motorcycle sales and restoration business.
-Scripted Database Population: Developing scripts for populating the database with relevant data to simulate real-world operations.
-Data Analysis: Analyzing the stored data to extract meaningful insights that could influence business decisions.
-Reporting: Compiling the analysis results into comprehensive report.
+This repository presents my thesis, in which I analyze how six key factors influence the occurrence of international wars. The study is based on the work of **J. David Singer**, who originally proposed six indicators: Military Expenditures, Military Personnel, Energy Consumption, Iron and Steel Production, Total Population, and Urban Population. In the 1970s, he conducted extensive analyses using these factors as part of the **Correlates of War** project, which he founded to collect and examine data on international conflict — the primary data source used in my project. This thesis aims to revisit and extend his approach using both historical and modern data.
+
+The work is divided into three main parts:
+
+1. Replication and comparison – I reproduce Singer's original models (four variants using different sets of factors from 1825 to 1960) to analyze how his approach compares with today’s data and perspectives.
+2. Parameter adjustment – I experiment with modifying the key parameter Singer used (originally set to 5) by testing values of 1 and 10, to explore how different time intervals affect the accuracy of conflict analysis.
+3. Forecasting conflicts – I build predictive models based on both older and more recent datasets, to understand whether long-term or short-term historical data is more useful for forecasting international conflicts.
+
+A brief summary of the results is provided in the **Summary** section of the thesis. It is recommended to read the first chapter "Theoretical Background of Armed Conflict Analysis" to better understand the methodology and context.
+
 ## Components
-Schema Design ('Thesis_PL.pdf').
-Schema Design ('Thesis_PL.pdf').
-Data Entry Scripts ('main.py'): Scripts used to populate the database efficiently and consistently. Is using:
+"Thesis_PL.pdf" - Original thesis in Polish (graded with 5).
 
-Folder 'data' that contains data for the project.
-Folder 'src' for basic database generation.
-The exact operation and relationship of all files is described in the file 'documentation.docx'.
+'Thesis_ANG.pdf' -  My personal English translation of the thesis (not professional, but readable).
 
-Data Analysis Tools ('report_PimpMyWheels.qmd'): Techniques and tools applied to analyze and visualize data, focusing on sales trends, restoration costs, and operational efficiency.
+'Script_thesis.ipynb' – Python script used for all data analysis and modeling in the project.
 
-Report Generation ('report_PimpMyWheels.pdf'): report after compiling 'report_PimpMyWheels.qmd'.
+'Presentation.ppt' – Final presentation of the project (in Polish).
 
-Documentation ('documentation.docx') includes:
+DATA/ folder – Contains the following folders with datasets and accompanying documentation:
 
-A list of technologies used.
-A list of files and their contents.
-Instructions for running the project.
-The database schema and functional dependency descriptions.
-Justification for the database being in BCNF.
-A description of the challenges encountered during the project
-This project serves as a practical application of database design principles, data management, and analytical reporting in a business context, particularly within the automotive industry.
+1. National Material Capabilities – Folder containing dataset with six key indicators for all recognized states from 1816 to 2016. Includes codebooks describing data collection methods and definitions.
+
+2. States – Contains a dataset identifying major powers used in this project between 1816 and 2016, along with a codebook explaining the criteria for recognizing entities as sovereign states.
+
+3. Wars – Data on international wars between 1823 and 2003, involving recognized sovereign states. Codebook included.
