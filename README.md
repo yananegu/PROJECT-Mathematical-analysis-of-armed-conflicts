@@ -28,3 +28,7 @@ A brief summary of the results is provided in the **Summary** section of the the
 2. States – Contains a dataset identifying major powers (`majors2016.csv`) used in this project between 1816 and 2016, along with a codebook (`State-System-Membership-Codebook-V2016.pdf`) explaining the criteria for recognizing entities as sovereign states.
 
 3. Wars – Dataset on international wars between 1823 and 2003 (`Inter-StateWarData_v4.0.csv`), involving recognized sovereign states. Codebook included (`Inter-StateWars_Codebook.pdf`).
+
+## Tools Used
+
+Python - pandas, numpy, matplotlib.pyplot, statsmodels.api, seaborn, scipy.stats, tabulate, sklearn.linear_model, sklearn.metrics; Jupiter Notebook
