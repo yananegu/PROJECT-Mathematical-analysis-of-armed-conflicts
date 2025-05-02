@@ -13,18 +13,18 @@ The work is divided into three main parts:
 A brief summary of the results is provided in the **Summary** section of the thesis. It is recommended to read the first chapter "Theoretical Background of Armed Conflict Analysis" to better understand the methodology and context.
 
 ## Components
-"Thesis_PL.pdf" - Original thesis in Polish (graded with 5).
+`Thesis_PL.pdf` - Original thesis in Polish (graded with 5).
 
-'Thesis_ANG.pdf' -  My personal English translation of the thesis (not professional, but readable).
+`Thesis_ANG.pdf` -  My personal English translation of the thesis (not professional, but readable).
 
-'Script_thesis.ipynb' – Python script used for all data analysis and modeling in the project.
+`Script_thesis.ipynb` – Python script used for all data analysis and modeling in the project.
 
-'Presentation.ppt' – Final presentation of the project (in Polish).
+`Presentation.ppt` – Final presentation of the project (in Polish).
 
-DATA/ folder – Contains the following folders with datasets and accompanying documentation:
+`DATA` folder – Contains the following folders with datasets and accompanying documentation:
 
-1. National Material Capabilities – Folder containing dataset with six key indicators for all recognized states from 1816 to 2016. Includes codebooks describing data collection methods and definitions.
+1. National Material Capabilities – Folder containing dataset (`NMC-60-abridged.csv`) with six key indicators for all recognized states from 1816 to 2016. Includes codebook (`NMC_Documentation_v6_0_final_v2.pdf`) describing data collection methods and definitions.
 
-2. States – Contains a dataset identifying major powers used in this project between 1816 and 2016, along with a codebook explaining the criteria for recognizing entities as sovereign states.
+2. States – Contains a dataset identifying major powers (`majors2016.csv`) used in this project between 1816 and 2016, along with a codebook (`State-System-Membership-Codebook-V2016.pdf`) explaining the criteria for recognizing entities as sovereign states.
 
-3. Wars – Data on international wars between 1823 and 2003, involving recognized sovereign states. Codebook included.
+3. Wars – Dataset on international wars between 1823 and 2003 (`Inter-StateWarData_v4.0.csv`), involving recognized sovereign states. Codebook included (`Inter-StateWars_Codebook.pdf`).
